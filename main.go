@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"gopro/controller"
+	"gopro/bleController"
 )
 
 // const (
@@ -23,7 +23,7 @@ func main() {
 	// err := adapter.Scan(onScan)
 	// must("start scan", err)
 
-	ct := controller.NewController()
+	ct := bleController.NewController()
 	var operation int
 	fmt.Println("Select 1")
 	fmt.Println("======================")
